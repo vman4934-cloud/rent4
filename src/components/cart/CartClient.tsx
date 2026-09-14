@@ -6,7 +6,7 @@ import { deliveryTariff } from "@/data/tariffs";
 import { resolveCart } from "@/lib/cart-logic";
 import { todayISO } from "@/lib/dates";
 import { formatRub, pluralDays } from "@/lib/format";
-import type { InquiryFieldErrors } from "@/lib/inquiry";
+import { validateInquiry, type InquiryFieldErrors } from "@/lib/inquiry";
 import type { Fulfillment } from "@/types/catalog";
 import { useCart } from "@/components/providers/CartProvider";
 import { Button, Field } from "@/components/ui";
@@ -40,13 +40,30 @@ export function CartClient() {
   const [demoMode, setDemoMode] = useState(false);
   const minDate = todayISO();
 
+  function acceptDemoInquiry() {
+    const validation = validateInquiry({ ...form, items });
+    if (!validation.ok) {
+      setErrors(validation.errors);
+      setStatus("error");
+      setServerMessage("Проверьте поля формы.");
+      return;
+    }
+    setDemoMode(true);
+    setStatus("success");
+    setServerMessage(
+      "Демонстрационный режим: заявка принята сайтом, но интеграция с почтой или Telegram не настроена. Менеджеру заявка не отправлена.",
+    );
+    setForm(emptyForm);
+    clear();
+  }
+
   async function onSubmit(event: FormEvent) {
     event.preventDefault();
     setStatus("submitting");
     setErrors({});
     setServerMessage("");
     try {
-      const response = await fetch("/api/inquiry", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/inquiry`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -54,6 +71,11 @@ export function CartClient() {
           items,
         }),
       });
+      const contentType = response.headers.get("content-type") ?? "";
+      if (!contentType.includes("application/json")) {
+        acceptDemoInquiry();
+        return;
+      }
       const data = (await response.json()) as {
         ok?: boolean;
         demo?: boolean;
@@ -72,8 +94,7 @@ export function CartClient() {
       setForm(emptyForm);
       clear();
     } catch {
-      setStatus("error");
-      setServerMessage("Не удалось отправить заявку. Попробуйте ещё раз или позвоните по телефону.");
+      acceptDemoInquiry();
     }
   }
 

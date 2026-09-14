@@ -23,7 +23,9 @@ export const metadata: Metadata = {
   description: `Каталог аренды строительного инструмента в ${company.serviceArea}. Предварительный расчёт стоимости и заявка. Наличие подтверждает менеджер.`,
   metadataBase: process.env.NEXT_PUBLIC_SITE_URL
     ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
-    : undefined,
+    : process.env.GITHUB_PAGES === "true"
+      ? new URL("https://vman4934-cloud.github.io/rent4/")
+      : undefined,
 };
 
 export default function RootLayout({
