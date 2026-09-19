@@ -269,3 +269,11 @@ summary::-webkit-details-marker { display: none; }
   .rental-panel { padding: 22px; }.content-page { padding-top: 38px; padding-bottom: 55px; }.content-page h1 { font-size: 37px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* Technical specifications for catalog and product pages. */
+.product-quick-specs { display:flex; flex-wrap:wrap; gap:6px; padding:0; margin:14px 0; list-style:none; }
+.product-quick-specs li { padding:5px 8px; border-radius:6px; background:var(--color-surface, #f4f4f4); color:var(--color-graphite, #303030); font-size:12px; line-height:1.5; font-weight:500; }
+.product-spec-row { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:20px; padding:12px 0; font-size:14px; line-height:1.6; }
+.product-spec-row dd { margin:0; overflow-wrap:anywhere; text-align:right; }
+.spec-footnote { margin-top:14px; color:var(--color-graphite-muted, #666); font-size:12px; line-height:1.6; }
+@media(max-width:480px) { .product-spec-row { gap:12px; font-size:13px; } }

@@ -74,6 +74,7 @@ export default async function ProductPage({ params }: Props) {
             <h1 className="text-3xl font-semibold">{product.name}</h1>
             <p className="text-graphite-muted">{product.description}</p>
           </header>
+          <ul className="product-quick-specs" aria-label="Основные характеристики">{product.shortSpecs.map((spec) => <li key={spec}>{spec}</li>)}</ul>
           <RentalPanel product={product} />
         </div>
       </div>
@@ -83,12 +84,14 @@ export default async function ProductPage({ params }: Props) {
           <h2 className="text-xl font-semibold">Характеристики</h2>
           <dl className="mt-4 divide-y divide-line">
             {product.specs.map((spec) => (
-              <div key={spec.label} className="flex justify-between gap-4 py-2 text-sm">
+              <div key={spec.label} className="product-spec-row">
                 <dt className="text-graphite-muted">{spec.label}</dt>
                 <dd className="font-medium text-graphite">{spec.value}</dd>
               </div>
             ))}
           </dl>
+          {product.id === "rent-34" ? <p className="spec-footnote">Диаметр диска конкретного инструмента уточним при подтверждении заявки.</p> : null}
+          {product.id === "rent-67" ? <p className="spec-footnote">Мощность, массу и рабочий диаметр уточним по паспорту инструмента.</p> : null}
         </div>
         <div className="rounded-2xl border border-line bg-white p-5">
           <h2 className="text-xl font-semibold">Комплектация</h2>

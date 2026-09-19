@@ -1,0 +1,1755 @@
+[
+  {
+    "id": "rent-1",
+    "model": "FUBAG TI 3200",
+    "source": "https://vladivostok.fubag.ru/catalog/benzinovye-invertornye-tsifrovye-generatory-ti/fubag-invertornyy-generatorr-ti-3200/",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Номинальная мощность",
+        "value": "2,8 кВт"
+      },
+      {
+        "label": "Максимальная мощность",
+        "value": "3,2 кВт"
+      },
+      {
+        "label": "Выходное напряжение",
+        "value": "230 В, 1 фаза"
+      },
+      {
+        "label": "Частота тока",
+        "value": "50 Гц"
+      },
+      {
+        "label": "Двигатель",
+        "value": "4-тактный, 212 см³"
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин АИ-92"
+      },
+      {
+        "label": "Объём бака",
+        "value": "7,8 л"
+      },
+      {
+        "label": "Запуск",
+        "value": "Ручной"
+      },
+      {
+        "label": "Масса",
+        "value": "39 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-2",
+    "model": "TSS SGG 6000EHNA Duplex",
+    "source": "https://www.tss.ru/upload/iblock/4aa/khvay9r0at2nlwanx55nqznbzxv83njo.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Номинальная мощность",
+        "value": "6 кВт"
+      },
+      {
+        "label": "Максимальная мощность",
+        "value": "6,5 кВт"
+      },
+      {
+        "label": "Выходное напряжение",
+        "value": "230 В, 1 фаза"
+      },
+      {
+        "label": "Двигатель",
+        "value": "192F, 420 см³"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "11 кВт / 15 л. с."
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин"
+      },
+      {
+        "label": "Объём бака",
+        "value": "25 л"
+      },
+      {
+        "label": "Масса",
+        "value": "86 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-3",
+    "model": "TSS SGG 8000EHNA",
+    "source": "https://www.tss.ru/catalog/elektrostantsii/benzinovye_elektrostantsii/benzogeneratory/benzogenerator_tss_sgg_8000ehna_160014/",
+    "notes": "Пиковая мощность исключена: в редакциях каталога 8,3 и 8,5 кВт.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Номинальная мощность",
+        "value": "8 кВт"
+      },
+      {
+        "label": "Выходное напряжение",
+        "value": "230 В, 1 фаза"
+      },
+      {
+        "label": "Частота тока",
+        "value": "50 Гц"
+      },
+      {
+        "label": "Двигатель",
+        "value": "192FB, 4-тактный"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "12,5 кВт / 17 л. с."
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин"
+      },
+      {
+        "label": "Объём бака",
+        "value": "25 л"
+      },
+      {
+        "label": "Запуск",
+        "value": "Ручной / электростартер"
+      }
+    ]
+  },
+  {
+    "id": "rent-4",
+    "model": "TSS SGG 10000EHA",
+    "source": "https://www.tss.ru/catalog/elektrostantsii/benzinovye_elektrostantsii/benzogeneratory/benzogenerator_tss_sgg_10000eha_s_avr_033531/",
+    "notes": "Источник описывает генератор с внешним блоком АВР; массу и наличие этого блока не переносили.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Номинальная мощность",
+        "value": "10 кВт"
+      },
+      {
+        "label": "Максимальная мощность",
+        "value": "11 кВт"
+      },
+      {
+        "label": "Выходное напряжение",
+        "value": "230 В, 1 фаза"
+      },
+      {
+        "label": "Частота тока",
+        "value": "50 Гц"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Lifan 2V78F-2, 2 цилиндра"
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин"
+      },
+      {
+        "label": "Объём бака",
+        "value": "27,5 л"
+      },
+      {
+        "label": "Запуск",
+        "value": "Электростартер"
+      }
+    ]
+  },
+  {
+    "id": "rent-10",
+    "model": "Makita HR2470",
+    "source": "https://www.makita.co.za/HR2470-HR2470T.pdf",
+    "notes": "Энергия удара исключена из-за разных методик измерения в каталогах.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "780 Вт"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-plus"
+      },
+      {
+        "label": "Режимы работы",
+        "value": "Сверление, сверление с ударом, долбление"
+      },
+      {
+        "label": "Диаметр сверления бетона",
+        "value": "До 24 мм"
+      },
+      {
+        "label": "Диаметр сверления стали",
+        "value": "До 13 мм"
+      },
+      {
+        "label": "Диаметр сверления дерева",
+        "value": "До 32 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "0–1 100 об/мин"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "0–4 500 уд/мин"
+      },
+      {
+        "label": "Масса",
+        "value": "2,9 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-11",
+    "model": "Bosch Professional GBH 2-26 DRE",
+    "source": "https://www.bosch-professional.com/ro/ro/products/gbh-2-26-dre-0611253708",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "800 Вт"
+      },
+      {
+        "label": "Энергия удара",
+        "value": "2,7 Дж"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-plus"
+      },
+      {
+        "label": "Диаметр сверления бетона",
+        "value": "4–26 мм"
+      },
+      {
+        "label": "Оптимальный диаметр в бетоне",
+        "value": "8–16 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "0–900 об/мин"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "0–4 000 уд/мин"
+      },
+      {
+        "label": "Масса",
+        "value": "2,9 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-12",
+    "model": "Makita HR4013C",
+    "source": "https://www.makitauk.com/data/sr/productinfo/generated/hr4013c_2.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 100 Вт"
+      },
+      {
+        "label": "Энергия удара (EPTA)",
+        "value": "8 Дж"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-max"
+      },
+      {
+        "label": "Диаметр сверления бетона",
+        "value": "До 40 мм"
+      },
+      {
+        "label": "Диаметр коронки",
+        "value": "До 105 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "250–500 об/мин"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "1 450–2 900 уд/мин"
+      },
+      {
+        "label": "Масса",
+        "value": "6,8 кг"
+      },
+      {
+        "label": "Снижение вибрации",
+        "value": "Система AVT"
+      }
+    ]
+  },
+  {
+    "id": "rent-13",
+    "model": "Makita GA5030",
+    "source": "https://makita.com.sg/wp-content/uploads/2025/04/General-Catalogue-2025_26.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "720 Вт"
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "125 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "11 000 об/мин"
+      },
+      {
+        "label": "Питание",
+        "value": "От электросети"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "2,5 м"
+      },
+      {
+        "label": "Габариты",
+        "value": "266 × 138 × 103 мм"
+      }
+    ]
+  },
+  {
+    "id": "rent-14",
+    "model": "Metabo WEV 15-125 Quick",
+    "source": "https://www.metabo.com/au/en/tools/cutting-sanding-milling/angle-grinder/angle-grinders-o100-150-mm/wev-15-125-quick-600468190-angle-grinder.html",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 550 Вт"
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "125 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "2 800–11 000 об/мин"
+      },
+      {
+        "label": "Резьба шпинделя",
+        "value": "M14"
+      },
+      {
+        "label": "Крутящий момент",
+        "value": "3,5 Н·м"
+      },
+      {
+        "label": "Масса без кабеля",
+        "value": "2,5 кг"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "4 м"
+      },
+      {
+        "label": "Смена диска",
+        "value": "Быстрозажимная гайка Metabo Quick"
+      }
+    ]
+  },
+  {
+    "id": "rent-16",
+    "model": "Makita HP2071",
+    "source": "https://www.makita.com.tr/darbeli-matkap-p-4cff59ba-30d5-4879-6d85-08daa04b0b98",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 010 Вт"
+      },
+      {
+        "label": "Количество скоростей",
+        "value": "2"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "0–1 200 / 0–2 900 об/мин"
+      },
+      {
+        "label": "Диаметр сверления бетона",
+        "value": "До 20 мм"
+      },
+      {
+        "label": "Диаметр сверления стали",
+        "value": "До 16 мм на 1-й скорости"
+      },
+      {
+        "label": "Диаметр сверления дерева",
+        "value": "До 40 мм на 1-й скорости"
+      },
+      {
+        "label": "Масса",
+        "value": "2,6 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-17",
+    "model": "Bosch Professional GSB 13 RE",
+    "source": "https://www.bosch-professional.com/ge/en/products/gsb-13-re-0601217100",
+    "notes": "Версия 0601217100; не характеристики обновлённой 650-ваттной модели.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "600 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "230 В"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "0–2 800 об/мин"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "0–44 800 уд/мин"
+      },
+      {
+        "label": "Зажим патрона",
+        "value": "1,5–13 мм"
+      },
+      {
+        "label": "Диаметр сверления дерева",
+        "value": "До 25 мм"
+      },
+      {
+        "label": "Диаметр сверления стали",
+        "value": "До 10 мм"
+      },
+      {
+        "label": "Диаметр сверления кирпича",
+        "value": "До 15 мм"
+      },
+      {
+        "label": "Масса",
+        "value": "1,8 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-18",
+    "model": "Makita DDF482RFE LXT 18V",
+    "source": "https://www.makitauk.com/data/sr/productinfo/generated/ddf482_2.pdf",
+    "notes": "Характеристики инструмента DDF482; количество и ёмкость арендных АКБ не подтверждены.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Аккумуляторная платформа",
+        "value": "Makita LXT, 18 В"
+      },
+      {
+        "label": "Тип аккумулятора",
+        "value": "Li-Ion"
+      },
+      {
+        "label": "Крутящий момент, жёсткий / мягкий",
+        "value": "62 / 36 Н·м"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "0–600 / 0–1 900 об/мин"
+      },
+      {
+        "label": "Зажим патрона",
+        "value": "1,5–13 мм"
+      },
+      {
+        "label": "Ступени крутящего момента",
+        "value": "21"
+      },
+      {
+        "label": "Диаметр сверления дерева",
+        "value": "До 38 мм"
+      },
+      {
+        "label": "Диаметр сверления стали",
+        "value": "До 13 мм"
+      }
+    ]
+  },
+  {
+    "id": "rent-19",
+    "model": "Makita HM0870C",
+    "source": "https://assets.cef.co.uk/downloads/pdg/makita_hm0870c_1_datasheet/makita_hm0870c_1_datasheet.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 100 Вт"
+      },
+      {
+        "label": "Энергия удара (EPTA)",
+        "value": "7,6 Дж"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-max"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "1 100–2 650 уд/мин"
+      },
+      {
+        "label": "Регулировка частоты ударов",
+        "value": "Есть"
+      },
+      {
+        "label": "Плавный пуск",
+        "value": "Есть"
+      },
+      {
+        "label": "Масса",
+        "value": "5,1 кг"
+      },
+      {
+        "label": "Габариты",
+        "value": "449 × 109 × 230 мм"
+      }
+    ]
+  },
+  {
+    "id": "rent-20",
+    "model": "Bosch Professional GSH 11 E",
+    "source": "https://www.bosch-professional.com/gb/en/products/gsh-11-e-0611316742",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 500 Вт"
+      },
+      {
+        "label": "Энергия удара",
+        "value": "16,8 Дж"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-max"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "1 050–1 890 уд/мин"
+      },
+      {
+        "label": "Питание",
+        "value": "От электросети"
+      },
+      {
+        "label": "Масса",
+        "value": "10,1 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-21",
+    "model": "Makita HM1213C",
+    "source": "https://www.makita.my/products/?proid=308",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Энергия удара (EPTA)",
+        "value": "18,6 Дж"
+      },
+      {
+        "label": "Патрон",
+        "value": "SDS-max"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "950–1 900 уд/мин"
+      },
+      {
+        "label": "Снижение вибрации",
+        "value": "Система AVT"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "5 м"
+      },
+      {
+        "label": "Габариты",
+        "value": "576 × 149 × 265 мм"
+      },
+      {
+        "label": "Масса",
+        "value": "10,8 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-22",
+    "model": "Bosch Professional GSH 16-30",
+    "source": "https://www.bosch-professional.com/middle-east/en/products/gsh-16-30-0611335100",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 750 Вт"
+      },
+      {
+        "label": "Энергия удара",
+        "value": "41 Дж"
+      },
+      {
+        "label": "Крепление оснастки",
+        "value": "Шестигранник 30 мм"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "1 280 уд/мин"
+      },
+      {
+        "label": "Снижение вибрации",
+        "value": "Vibration Control"
+      },
+      {
+        "label": "Масса",
+        "value": "16,9 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-23",
+    "model": "Makita SG1251J",
+    "source": "https://www.makita.co.nz/products/model/SG1251J",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 400 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "230 В"
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "125 мм"
+      },
+      {
+        "label": "Глубина реза",
+        "value": "До 30 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "10 000 об/мин"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "5 м"
+      },
+      {
+        "label": "Масса",
+        "value": "4,5 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-24",
+    "model": "Metabo MFE 40",
+    "source": "https://www.metabo.com/uk/en/tools/cutting-sanding-milling/concrete-stone-plaster/wall-chasers/mfe-40-wall-chaser/604040590",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 900 Вт"
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "125 мм"
+      },
+      {
+        "label": "Глубина паза",
+        "value": "10–40 мм"
+      },
+      {
+        "label": "Ширина паза",
+        "value": "9 / 15,5 / 22 / 28,5 / 35 мм"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "5 000 об/мин"
+      },
+      {
+        "label": "Масса без кабеля",
+        "value": "4,6 кг"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "4 м"
+      }
+    ]
+  },
+  {
+    "id": "rent-25",
+    "model": "Makita VC3012L",
+    "source": "https://makita.in/product/vc3012l/",
+    "notes": "Мощность исключена из-за региональных вариантов 1200/1500 Вт.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип уборки",
+        "value": "Сухая и сбор жидкости"
+      },
+      {
+        "label": "Класс пыли",
+        "value": "L"
+      },
+      {
+        "label": "Разрежение",
+        "value": "25 кПа"
+      },
+      {
+        "label": "Расход воздуха",
+        "value": "3,7 м³/мин"
+      },
+      {
+        "label": "Полезный объём для пыли",
+        "value": "24 л"
+      },
+      {
+        "label": "Полезный объём для жидкости",
+        "value": "19 л"
+      },
+      {
+        "label": "Очистка фильтра",
+        "value": "Push & Clean"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "7,5 м"
+      },
+      {
+        "label": "Масса",
+        "value": "11 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-26",
+    "model": "Kärcher NT 30/1 Tact L",
+    "source": "https://www.kaercher.com/int/professional/wet-and-dry-vacuum-cleaners/tact-class/nt-30-1-tact-l-11482010.html",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип уборки",
+        "value": "Сухая и сбор жидкости"
+      },
+      {
+        "label": "Максимальная мощность",
+        "value": "1 380 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220–240 В"
+      },
+      {
+        "label": "Расход воздуха",
+        "value": "74 л/с"
+      },
+      {
+        "label": "Разрежение",
+        "value": "27,3 кПа"
+      },
+      {
+        "label": "Объём бака",
+        "value": "30 л"
+      },
+      {
+        "label": "Класс пыли",
+        "value": "L"
+      },
+      {
+        "label": "Очистка фильтра",
+        "value": "Автоматическая, Tact"
+      },
+      {
+        "label": "Масса без принадлежностей",
+        "value": "13,5 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-27",
+    "model": "TSS VP80TH",
+    "source": "https://cdn.vseinstrumenti.ru/instruction/nomenclaturecontent/202309/25186389.pdf/tss-vp80tl-vi7-5164333.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип виброплиты",
+        "value": "Прямоходная"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Honda GX160"
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин АИ-92"
+      },
+      {
+        "label": "Центробежная сила",
+        "value": "15 кН"
+      },
+      {
+        "label": "Размер основания",
+        "value": "510 × 480 мм"
+      },
+      {
+        "label": "Глубина уплотнения",
+        "value": "До 300 мм, зависит от грунта"
+      },
+      {
+        "label": "Масса",
+        "value": "80 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-28",
+    "model": "TSS WP160L",
+    "source": "https://samara.tss.ru/catalog/stroitelnoe_oborudovanie_tss/vibroplita_reversivnaya_tss_wp160l_207185/",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип виброплиты",
+        "value": "Реверсивная"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Loncin G200F"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "4,8 кВт / 6,5 л. с."
+      },
+      {
+        "label": "Центробежная сила",
+        "value": "30,5 кН"
+      },
+      {
+        "label": "Размер основания",
+        "value": "670 × 450 мм"
+      },
+      {
+        "label": "Глубина уплотнения",
+        "value": "До 500 мм, зависит от грунта"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "3,6 л"
+      },
+      {
+        "label": "Масса",
+        "value": "150 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-29",
+    "model": "TSS RM75H Honda GX160",
+    "source": "https://samara.tss.ru/catalog/stroitelnoe_oborudovanie_tss/vibrotrambovki_tss/benzinovye_vibrotrambovki/vibrotrambovka_benzinovaya_tss_rm75h__207500/",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Двигатель",
+        "value": "Honda GX160, 4-тактный"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "3,6 кВт / 4,8 л. с."
+      },
+      {
+        "label": "Топливо",
+        "value": "Бензин"
+      },
+      {
+        "label": "Сила удара",
+        "value": "10 кН"
+      },
+      {
+        "label": "Частота ударов",
+        "value": "450–650 уд/мин"
+      },
+      {
+        "label": "Размер башмака",
+        "value": "340 × 285 мм"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "2,8 л"
+      },
+      {
+        "label": "Масса",
+        "value": "79 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-30",
+    "model": "TSS RH-350L",
+    "source": "https://rostov.tss.ru/catalog/stroitelnaya_tekhnika/rezchiki_shvov_tss_1/rezchik_shvov_tss_rh_350l_107572/",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Двигатель",
+        "value": "Loncin G200F"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "4 кВт / 5,5 л. с."
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "350 мм"
+      },
+      {
+        "label": "Посадочное отверстие",
+        "value": "25,4 мм"
+      },
+      {
+        "label": "Глубина реза",
+        "value": "До 80 мм"
+      },
+      {
+        "label": "Бак для воды",
+        "value": "11 л"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "3,6 л"
+      },
+      {
+        "label": "Масса",
+        "value": "68 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-31",
+    "model": "TSS ЭП-1,5/220 + вал/булава",
+    "source": "https://www.parts.tss.ru/catalog/stroitelnoe_oborudovanie_b_u_i_s_utsenkoy/elektroprivod_ep_1_5_220_s_uzo_k_glub_vibratoru_tss/",
+    "notes": "Длина вала и диаметр булавы зависят от комплектации; не подтверждены.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Привод",
+        "value": "Электрический"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220 В"
+      },
+      {
+        "label": "Частота сети",
+        "value": "50 Гц"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "2 850 об/мин"
+      },
+      {
+        "label": "Соединение гибкого вала",
+        "value": "ДУ"
+      },
+      {
+        "label": "Масса электропривода",
+        "value": "12,5 кг"
+      },
+      {
+        "label": "Габариты электропривода",
+        "value": "345 × 270 × 300 мм"
+      }
+    ]
+  },
+  {
+    "id": "rent-32",
+    "model": "Вихрь БМ-180",
+    "source": "https://vihr.ru/products/betomeshalka-vikhr-bm-180",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "800 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220 В"
+      },
+      {
+        "label": "Объём барабана",
+        "value": "180 л"
+      },
+      {
+        "label": "Объём загрузки",
+        "value": "До 130 л"
+      },
+      {
+        "label": "Частота вращения барабана",
+        "value": "29,5 об/мин"
+      },
+      {
+        "label": "Венец",
+        "value": "Чугунный"
+      },
+      {
+        "label": "Время смешивания",
+        "value": "3–7 минут"
+      }
+    ]
+  },
+  {
+    "id": "rent-33",
+    "model": "Eibenstock DBE 162",
+    "source": "https://www.eibenstock.com/images/downloads/diamond-core-drilling/DiamantProfis%20ENG%202020%20web.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "2 200 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "230 В"
+      },
+      {
+        "label": "Диаметр мокрого бурения",
+        "value": "12–162 мм"
+      },
+      {
+        "label": "Диаметр сухого бурения",
+        "value": "12–202 мм"
+      },
+      {
+        "label": "Резьба шпинделя",
+        "value": "G 1/2 внутренняя / 1¼ наружная"
+      },
+      {
+        "label": "Наклон стойки",
+        "value": "0–45°"
+      },
+      {
+        "label": "Рабочий ход стойки",
+        "value": "700 мм"
+      },
+      {
+        "label": "Масса установки",
+        "value": "20,7 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-34",
+    "model": "Husqvarna K 970",
+    "source": "https://www.husqvarnaconstruction.com/hcp/tdrdownload/pub000082512/doc000150219/1350480176?httproute=True",
+    "notes": "Исполнение с диском 350/400 мм в исходной таблице не указано; требуется уточнение конкретного экземпляра.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Мощность двигателя",
+        "value": "4,8 кВт"
+      },
+      {
+        "label": "Рабочий объём",
+        "value": "93,6 см³"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "1 л"
+      },
+      {
+        "label": "Охлаждение реза",
+        "value": "Подача воды"
+      },
+      {
+        "label": "Диск по исполнению",
+        "value": "350 или 400 мм"
+      },
+      {
+        "label": "Глубина реза по исполнению",
+        "value": "125 мм (350 мм) / 155 мм (400 мм)"
+      }
+    ]
+  },
+  {
+    "id": "rent-35",
+    "model": "STIHL TS 420",
+    "source": "https://www.stihl.ca/en/p/cut-off-machines-ts-420-1340",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Мощность двигателя",
+        "value": "3,2 кВт"
+      },
+      {
+        "label": "Рабочий объём",
+        "value": "66,7 см³"
+      },
+      {
+        "label": "Диаметр диска",
+        "value": "350 мм"
+      },
+      {
+        "label": "Глубина реза",
+        "value": "До 125 мм"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Бензиновый"
+      },
+      {
+        "label": "Снижение вибрации",
+        "value": "Антивибрационная система"
+      },
+      {
+        "label": "Охлаждение реза",
+        "value": "Подключение воды"
+      }
+    ]
+  },
+  {
+    "id": "rent-37",
+    "model": "Master DH 752",
+    "source": "https://www.danthermgroup.com/products/master-dh-752",
+    "notes": "Литры в сутки исключены: в исходной таблице старое исполнение 46,7 л/сутки, текущая модель 48 л/сутки.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Расход воздуха",
+        "value": "350 м³/ч"
+      },
+      {
+        "label": "Рабочая температура",
+        "value": "+5…+35 °C"
+      },
+      {
+        "label": "Рабочая влажность",
+        "value": "20–90 %"
+      },
+      {
+        "label": "Бак для конденсата",
+        "value": "5,7 л"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220–240 В"
+      },
+      {
+        "label": "Частота сети",
+        "value": "50 Гц"
+      },
+      {
+        "label": "Отвод конденсата",
+        "value": "В бак или непрерывный слив"
+      }
+    ]
+  },
+  {
+    "id": "rent-39",
+    "model": "Ballu BHP-ME-5",
+    "source": "https://www.ballu.ru/upload/iblock/699/699ac0d290392458c901406ce7684a51.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тепловая мощность",
+        "value": "4,5 кВт"
+      },
+      {
+        "label": "Режимы мощности",
+        "value": "0 / 3 / 4,5 кВт"
+      },
+      {
+        "label": "Расход воздуха",
+        "value": "400 м³/ч"
+      },
+      {
+        "label": "Напряжение",
+        "value": "230 В"
+      },
+      {
+        "label": "Номинальный ток",
+        "value": "21 А"
+      },
+      {
+        "label": "Габариты (Ш × В × Г)",
+        "value": "245 × 350 × 225 мм"
+      },
+      {
+        "label": "Масса",
+        "value": "3,5 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-40",
+    "model": "Master B 100 CED",
+    "source": "https://www.danthermgroup.com/products/master-b-100/print",
+    "notes": "Параметры семейства B100, исключены изменяемые по поколениям масса и расход топлива.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тепловая мощность",
+        "value": "29 кВт"
+      },
+      {
+        "label": "Расход воздуха",
+        "value": "800 м³/ч"
+      },
+      {
+        "label": "Нагрев",
+        "value": "Прямой"
+      },
+      {
+        "label": "Топливо",
+        "value": "Дизельное топливо / керосин"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "44 л"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220–240 В"
+      }
+    ]
+  },
+  {
+    "id": "rent-41",
+    "model": "Grundfos UNILIFT KP 250-A1",
+    "source": "https://www.grundfos.com/content/dam/local/fi-fi/page-assets/about-us/news-stories/documents/grundfos-pumppumyyjan-tyokalu-2020.pdf",
+    "notes": "Длина кабеля и масса зависят от артикула, не переносились.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип насоса",
+        "value": "Погружной дренажный"
+      },
+      {
+        "label": "Потребляемая мощность",
+        "value": "480 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "230 В, 1 фаза"
+      },
+      {
+        "label": "Номинальный ток",
+        "value": "2,3 А"
+      },
+      {
+        "label": "Выходное соединение",
+        "value": "Rp 1¼ дюйма"
+      },
+      {
+        "label": "Управление уровнем",
+        "value": "Поплавковый выключатель"
+      }
+    ]
+  },
+  {
+    "id": "rent-42",
+    "model": "Koshin SEV-50X",
+    "source": "https://www.koshin-ltd.jp/data/products/128/development_manual_1.pdf",
+    "notes": "Расход и бак исключены из-за отличий региональных исполнений.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Диаметр патрубков",
+        "value": "50 мм (2 дюйма)"
+      },
+      {
+        "label": "Максимальный напор",
+        "value": "27 м"
+      },
+      {
+        "label": "Глубина всасывания",
+        "value": "До 8 м"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Koshin K180, 4-тактный"
+      },
+      {
+        "label": "Рабочий объём",
+        "value": "179 см³"
+      },
+      {
+        "label": "Номинальная мощность двигателя",
+        "value": "3,1 кВт"
+      },
+      {
+        "label": "Топливо",
+        "value": "Неэтилированный бензин"
+      }
+    ]
+  },
+  {
+    "id": "rent-43",
+    "model": "Koshin KTH-80X",
+    "source": "https://koshinamerica.com/product/kth-80x/",
+    "notes": "Значения переведены из 89 ft, 354 US gpm, 128 lb с округлением.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Диаметр патрубков",
+        "value": "3 дюйма"
+      },
+      {
+        "label": "Максимальный напор",
+        "value": "Около 27 м"
+      },
+      {
+        "label": "Максимальная подача",
+        "value": "Около 1 340 л/мин"
+      },
+      {
+        "label": "Двигатель",
+        "value": "Honda GX240"
+      },
+      {
+        "label": "Рабочий объём",
+        "value": "242 см³"
+      },
+      {
+        "label": "Запуск",
+        "value": "Ручной"
+      },
+      {
+        "label": "Масса",
+        "value": "Около 58 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-45",
+    "model": "Remeza СБ4/С-100.LB30A",
+    "source": "https://apps.remeza.org/catalog/kompressory/porshnevye_kompressory/porshnevye_maslozapolnennye_kompressory/s_remennym/sb4_s_100_lb30a/",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип компрессора",
+        "value": "Поршневой, масляный"
+      },
+      {
+        "label": "Объём ресивера",
+        "value": "100 л"
+      },
+      {
+        "label": "Максимальное давление",
+        "value": "10 бар"
+      },
+      {
+        "label": "Производительность на входе",
+        "value": "420 л/мин"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "2,2 кВт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220 В"
+      },
+      {
+        "label": "Цилиндры / ступени",
+        "value": "2 / 1"
+      },
+      {
+        "label": "Масса",
+        "value": "86 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-46",
+    "model": "ABAC B6000/270 CT 7.5",
+    "source": "https://www.abacaircompressors.com/content/dam/brands/ABAC/products/leaflet/int/ABAC_catalogue_2024_ITS_EN_web.pdf.coredownload.pdf",
+    "notes": "Напряжение, давление и масса исключены: существуют региональные артикулы CT7.5; требуется шильдик.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Тип компрессора",
+        "value": "Поршневой, масляный"
+      },
+      {
+        "label": "Привод",
+        "value": "Ременной"
+      },
+      {
+        "label": "Количество ступеней",
+        "value": "2"
+      },
+      {
+        "label": "Объём ресивера",
+        "value": "270 л"
+      },
+      {
+        "label": "Производительность на входе",
+        "value": "827 л/мин"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "7,5 л. с."
+      },
+      {
+        "label": "Частота вращения",
+        "value": "1 400 об/мин"
+      }
+    ]
+  },
+  {
+    "id": "rent-48",
+    "model": "Сварог REAL ARC 200 (Z238N)",
+    "source": "https://svarog-rf.ru/products/real-arc-200-z238n/specs",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Режим сварки",
+        "value": "MMA, постоянный ток"
+      },
+      {
+        "label": "Сварочный ток",
+        "value": "15–200 А"
+      },
+      {
+        "label": "Напряжение питания",
+        "value": "220 В, 1 фаза"
+      },
+      {
+        "label": "Рабочее напряжение сети",
+        "value": "160–270 В"
+      },
+      {
+        "label": "Диаметр электрода",
+        "value": "1,6–4 мм"
+      },
+      {
+        "label": "Продолжительность нагрузки при +40 °C",
+        "value": "60 %"
+      },
+      {
+        "label": "Ток при непрерывной работе",
+        "value": "160 А"
+      },
+      {
+        "label": "Масса",
+        "value": "4,3 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-49",
+    "model": "AuroraPRO SPEEDWAY 200",
+    "source": "https://aurora.nt-rt.ru/images/showcase/Nano.pdf",
+    "notes": "Классический SPEEDWAY 200; не SYNERGIC и не DUAL PULSE.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Режим сварки",
+        "value": "MIG/MAG"
+      },
+      {
+        "label": "Сварочный ток",
+        "value": "40–200 А"
+      },
+      {
+        "label": "Напряжение питания",
+        "value": "220 В"
+      },
+      {
+        "label": "Потребляемая мощность",
+        "value": "5,9 кВт"
+      },
+      {
+        "label": "Продолжительность нагрузки при +40 °C",
+        "value": "60 %"
+      },
+      {
+        "label": "Габариты",
+        "value": "470 × 240 × 450 мм"
+      },
+      {
+        "label": "Масса",
+        "value": "21 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-52",
+    "model": "Bosch Professional GLL 3-80 CG",
+    "source": "https://www.bosch-professional.com/nl/nl/products/gll-3-80-cg-0601063T00920",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Проекция",
+        "value": "3 плоскости по 360°"
+      },
+      {
+        "label": "Цвет луча",
+        "value": "Зелёный"
+      },
+      {
+        "label": "Рабочая дальность",
+        "value": "До 30 м"
+      },
+      {
+        "label": "Дальность с приёмником",
+        "value": "До 120 м, приёмник отдельно"
+      },
+      {
+        "label": "Точность нивелирования",
+        "value": "±0,2 мм/м"
+      },
+      {
+        "label": "Диапазон самовыравнивания",
+        "value": "±4°"
+      },
+      {
+        "label": "Защита корпуса",
+        "value": "IP54"
+      },
+      {
+        "label": "Питание",
+        "value": "Аккумулятор 12 В или 4 × AA через адаптер"
+      },
+      {
+        "label": "Резьба для штатива",
+        "value": "1/4 и 5/8 дюйма"
+      }
+    ]
+  },
+  {
+    "id": "rent-62",
+    "model": "Kärcher Puzzi 10/1",
+    "source": "https://www.kaercher.com/int/professional/carpet-cleaner/spray-extraction-machines/puzzi-10-1-11001300.html",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Производительность по площади",
+        "value": "20–25 м²/ч"
+      },
+      {
+        "label": "Чистая / грязная вода",
+        "value": "10 / 9 л"
+      },
+      {
+        "label": "Давление распыления",
+        "value": "1 бар"
+      },
+      {
+        "label": "Подача раствора",
+        "value": "1 л/мин"
+      },
+      {
+        "label": "Разрежение",
+        "value": "25,4 кПа"
+      },
+      {
+        "label": "Мощность турбины",
+        "value": "1 250 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220–240 В"
+      },
+      {
+        "label": "Длина кабеля",
+        "value": "7,5 м"
+      },
+      {
+        "label": "Масса без принадлежностей",
+        "value": "10,5 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-63",
+    "model": "Wandeli QX-1200",
+    "source": "https://wandeli.ru/wa-data/public/shop/plugins/ewshoppattach/96/Инструкция%20по%20эксплуатации%20станков%20Wandeli%20серии%20QX66bdc2becb6c02.16118667.pdf",
+    "notes": "Стандартный QX-1200, не QX-1200-BL и не QX-ZD-1200.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Потребляемая мощность",
+        "value": "1 550 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220 В, 50 Гц"
+      },
+      {
+        "label": "Частота вращения",
+        "value": "12 000 об/мин"
+      },
+      {
+        "label": "Максимальный диаметр диска",
+        "value": "125 мм"
+      },
+      {
+        "label": "Длина реза",
+        "value": "До 1 200 мм"
+      },
+      {
+        "label": "Глубина реза при 90° / 45°",
+        "value": "30 / 20 мм"
+      },
+      {
+        "label": "Рабочий стол",
+        "value": "1 200 × 350 мм"
+      },
+      {
+        "label": "Охлаждение реза",
+        "value": "Водяное"
+      }
+    ]
+  },
+  {
+    "id": "rent-64",
+    "model": "Master DH 62",
+    "source": "https://www.danthermgroup.com/products/master-dh-62/print",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Влагоудаление при +30 °C, 80 % RH",
+        "value": "52 л/сутки"
+      },
+      {
+        "label": "Расход воздуха",
+        "value": "480 м³/ч"
+      },
+      {
+        "label": "Рабочая температура",
+        "value": "+1…+32 °C"
+      },
+      {
+        "label": "Рабочая влажность",
+        "value": "30–98 %"
+      },
+      {
+        "label": "Потребляемая мощность",
+        "value": "890 Вт"
+      },
+      {
+        "label": "Напряжение",
+        "value": "220–240 В"
+      },
+      {
+        "label": "Бак для конденсата",
+        "value": "12 л"
+      },
+      {
+        "label": "Масса",
+        "value": "47 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-65",
+    "model": "STIHL BT 360",
+    "source": "https://static.stihl.com/api/BaOnline/Download/ZBA0458-441-0121-A%20%20%20%20%20%20%20%20%20%2009ZBA/0458-441-0121-A_ZBA_09_01.pdf",
+    "notes": "",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Рабочий объём двигателя",
+        "value": "60,3 см³"
+      },
+      {
+        "label": "Мощность двигателя",
+        "value": "3 кВт / 4,1 л. с."
+      },
+      {
+        "label": "Двигатель",
+        "value": "Бензиновый, 2-тактный"
+      },
+      {
+        "label": "Частота вращения шпинделя",
+        "value": "50 об/мин"
+      },
+      {
+        "label": "Диаметры совместимых буров",
+        "value": "90–350 мм"
+      },
+      {
+        "label": "Топливный бак",
+        "value": "0,55 л"
+      },
+      {
+        "label": "Масса без бура и топлива",
+        "value": "28,5 кг"
+      }
+    ]
+  },
+  {
+    "id": "rent-67",
+    "model": "TSS DMD900, 380 В",
+    "source": "https://parts.tss.ru/catalog/stroitelnoe_oborudovanie_b_u_i_s_utsenkoy/?PAGEN_1=2&SIZEN_1=20",
+    "notes": "Напряжение из исходного каталога пользователя. Мощность, масса и рабочий диаметр требуют паспорта конкретного экземпляра; данные другой марки TOR не использованы.",
+    "checkedOn": "2026-09-19",
+    "publishedSpecs": [
+      {
+        "label": "Привод",
+        "value": "Электрический"
+      },
+      {
+        "label": "Напряжение",
+        "value": "380 В"
+      },
+      {
+        "label": "Назначение",
+        "value": "Затирка бетонного пола"
+      },
+      {
+        "label": "Рабочий орган",
+        "value": "Затирочные лопасти"
+      }
+    ]
+  }
+]
