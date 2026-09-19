@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: "Инструмент не найден" };
   return {
     title: product.name,
-    description: `${product.name} (${product.brand} ${product.model}) в аренду в ${company.city}. Демо-ставка ${formatRub(product.dailyRate)} в сутки.`,
+    description: `${product.name} (${product.brand} ${product.model}) в аренду в ${company.city}. Предварительная ставка ${formatRub(product.dailyRate)} в сутки.`,
   };
 }
 

@@ -23,6 +23,12 @@ function Icon({
 }
 
 const icons: Record<ProductVisual, ReactNode> = {
+  equipment: (
+    <Icon>
+      <rect x="20" y="18" width="40" height="44" rx="6" stroke="currentColor" strokeWidth="2.5" />
+      <path d="M30 32h20M30 42h20M30 52h12" stroke="currentColor" strokeWidth="2.5" />
+    </Icon>
+  ),
   "hammer-drill": (
     <Icon>
       <rect x="18" y="28" width="36" height="16" rx="4" stroke="currentColor" strokeWidth="2.5" />
@@ -175,12 +181,12 @@ export function ProductVisual({
 }) {
   if (product.image) {
     return (
-      <div className={cn("relative h-full min-h-[11rem] w-full", className)}>
+      <div className={cn("product-photo relative h-full w-full", className)}>
         <Image
-          src={product.image}
-          alt={product.name}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${product.image}`}
+          alt={`${product.brand} ${product.model} — ${product.name}`}
           fill
-          className="object-cover"
+          className="object-contain p-4"
           sizes={sizes}
         />
       </div>
@@ -198,7 +204,7 @@ export function ProductVisual({
       <div className="absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-graphite/5" />
       {icons[product.visual]}
       <span className="absolute bottom-2 left-2 rounded-md bg-white/90 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-graphite-muted">
-        Заглушка фото
+        Схема · фото уточняется
       </span>
     </div>
   );

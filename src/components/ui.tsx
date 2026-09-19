@@ -7,18 +7,18 @@ type ButtonSize = "sm" | "md" | "lg";
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-[#e85d04] text-white hover:bg-[#c44d03] disabled:bg-[#e85d04]/50",
+    "bg-accent text-white hover:bg-accent-hover disabled:opacity-50",
   graphite:
-    "bg-[#1f2933] text-white hover:bg-[#161b22] disabled:bg-[#1f2933]/50",
+    "bg-graphite text-white hover:bg-[#343a37] disabled:opacity-50",
   ghost:
-    "border border-[#e4e7eb] bg-[#f4f5f7] text-[#1f2933] hover:bg-[#e4e7eb] disabled:text-[#52606d]",
+    "border border-line bg-white text-graphite hover:bg-surface disabled:opacity-50",
   soft: "bg-[#fff1e6] text-[#c44d03] hover:bg-[#ffd8bf]",
 };
 
 const sizes: Record<ButtonSize, string> = {
-  sm: "h-9 px-3 text-sm",
-  md: "h-11 px-4 text-sm",
-  lg: "h-12 px-5 text-base",
+  sm: "min-h-11 px-4 text-sm",
+  md: "min-h-12 px-5 text-sm",
+  lg: "min-h-14 px-7 text-base",
 };
 
 export function buttonClass(
@@ -27,7 +27,7 @@ export function buttonClass(
   className?: string,
 ) {
   return cn(
-    "inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition disabled:cursor-not-allowed",
+    "inline-flex items-center justify-center gap-3 rounded-lg font-bold transition duration-200 active:translate-y-px disabled:cursor-not-allowed",
     variants[variant],
     sizes[size],
     className,

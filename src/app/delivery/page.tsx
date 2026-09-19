@@ -1,41 +1,7 @@
 import type { Metadata } from "next";
-import { company } from "@/data/company";
-import { deliveryTariff } from "@/data/tariffs";
-
-export const metadata: Metadata = {
-  title: "Доставка и оплата",
-  description: "Самовывоз, доставка по зоне обслуживания и оплата аренды. Тариф доставки рассчитывается менеджером.",
-};
-
+import { ButtonLink } from "@/components/ui";
+import { Icon } from "@/components/Icon";
+export const metadata: Metadata = { title: "Доставка и самовывоз", description: "Получение арендного оборудования RentGar в Москве: согласование доставки, самовывоза и оплаты." };
 export default function DeliveryPage() {
-  return (
-    <article className="container-site max-w-3xl space-y-6 py-10">
-      <h1 className="text-3xl font-semibold">Доставка и оплата</h1>
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Самовывоз</h2>
-        <p>{deliveryTariff.pickupNote}</p>
-        <p>
-          Адрес: {company.address}
-          <br />
-          График: {company.hours}
-        </p>
-      </section>
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Доставка</h2>
-        <p>{deliveryTariff.deliveryNote}</p>
-        <p>
-          Стоимость доставки: {deliveryTariff.note}. Чтобы включить автоматический тариф, задайте его
-          в файле <code>src/data/tariffs.ts</code>.
-        </p>
-        <p>Зона обслуживания: {company.serviceArea}.</p>
-      </section>
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Оплата</h2>
-        <p>
-          Способы оплаты, предоплата и возврат залога — данные для заполнения владельцем. На сайте
-          нет онлайн-оплаты: заявка только запрашивает расчёт и подтверждение.
-        </p>
-      </section>
-    </article>
-  );
+  return <article className="container-site content-page"><p className="eyebrow">RENTGAR / ПОЛУЧЕНИЕ ОБОРУДОВАНИЯ</p><h1>До объекта.<br />Или заберите сами.</h1><p className="text-lg text-graphite-muted">Укажите удобный способ получения в заявке. Время, адрес и стоимость согласуем до оформления аренды.</p><section className="space-y-3"><h2 className="flex items-center gap-3"><Icon name="truck" />Доставка по Москве</h2><p>Оставьте адрес объекта и комментарий о подъезде, этаже или особенностях разгрузки. Возможность доставки, её стоимость и интервал подтверждает менеджер.</p></section><section className="space-y-3"><h2 className="flex items-center gap-3"><Icon name="pin" />Самовывоз</h2><p>Дождитесь подтверждения наличия и времени выдачи. Перед получением вам сообщат адрес пункта и согласованную комплектацию.</p></section><section className="space-y-3"><h2>Стоимость и оплата</h2><p>Калькулятор показывает аренду: ставка за сутки × срок × количество. Залог и доставка учитываются отдельно. Способ оплаты и окончательную сумму согласуем при подтверждении заявки.</p><p className="text-sm text-graphite-muted">Онлайн-оплата на сайте не требуется. Заявка — запрос на аренду, а не подтверждённая бронь.</p></section><div className="mt-7"><ButtonLink href="/catalog" size="lg">Выбрать оборудование <Icon name="arrow" /></ButtonLink></div></article>;
 }

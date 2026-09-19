@@ -44,16 +44,17 @@ export function RentalPanel({ product }: { product: Product }) {
 
   return (
     <>
-      <section className="rounded-2xl border border-line bg-white p-5">
-        <p className="text-2xl font-semibold text-graphite">
+      <section className="rental-panel">
+        <p className="eyebrow">АРЕНДА НА ВАШ СРОК</p>
+        <p className="rental-rate text-graphite">
           {formatRub(product.dailyRate)}
           <span className="ml-1 text-base font-normal text-graphite-muted">/ сутки</span>
         </p>
         <p className="mt-1 text-sm text-graphite">
-          Залог: {formatRub(product.deposit)} за единицу
+          Залог: {formatRub(product.deposit)}{product.deposit !== null ? " за единицу" : " при подтверждении"}
         </p>
         <p className="mt-1 text-xs text-graphite-muted">
-          Демо-цена и демо-наличие: {product.stock} шт. Не оферта.
+          Предварительная ставка. Наличие уточняется на выбранные даты.
         </p>
 
         <div className="mt-5 space-y-4">
@@ -84,7 +85,7 @@ export function RentalPanel({ product }: { product: Product }) {
               id="qty"
               type="number"
               min={1}
-              max={product.stock}
+              max={product.stock ?? rentalRules.maxQuantity}
               value={priced.quantity}
               onChange={(event) => setQuantity(Number(event.target.value))}
             />
@@ -106,9 +107,9 @@ export function RentalPanel({ product }: { product: Product }) {
         </div>
 
         <div className="mt-4 hidden gap-2 lg:grid">
-          <Button onClick={() => commit(false)}>Добавить в корзину</Button>
-          <Button variant="ghost" onClick={() => commit(true)}>
-            Быстрая заявка
+          <Button onClick={() => commit(true)}>Оформить заявку →</Button>
+          <Button variant="ghost" onClick={() => commit(false)}>
+            Добавить и продолжить выбор
           </Button>
         </div>
         {message ? (

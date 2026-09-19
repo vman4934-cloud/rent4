@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState, type FormEvent } from "react";
-import { company, site } from "@/data/company";
-import { deliveryTariff } from "@/data/tariffs";
+import { site } from "@/data/company";
+import { deliveryTariff, rentalRules } from "@/data/tariffs";
 import { resolveCart } from "@/lib/cart-logic";
 import { todayISO } from "@/lib/dates";
 import { formatRub, pluralDays } from "@/lib/format";
@@ -40,7 +40,11 @@ export function CartClient() {
   const [demoMode, setDemoMode] = useState(false);
   const minDate = todayISO();
 
-  function acceptDemoInquiry() {
+  async function onSubmit(event: FormEvent) {
+    event.preventDefault();
+    setStatus("submitting");
+    setErrors({});
+    setServerMessage("");
     const validation = validateInquiry({ ...form, items });
     if (!validation.ok) {
       setErrors(validation.errors);
@@ -48,20 +52,6 @@ export function CartClient() {
       setServerMessage("Проверьте поля формы.");
       return;
     }
-    setDemoMode(true);
-    setStatus("success");
-    setServerMessage(
-      "Демонстрационный режим: заявка принята сайтом, но интеграция с почтой или Telegram не настроена. Менеджеру заявка не отправлена.",
-    );
-    setForm(emptyForm);
-    clear();
-  }
-
-  async function onSubmit(event: FormEvent) {
-    event.preventDefault();
-    setStatus("submitting");
-    setErrors({});
-    setServerMessage("");
     try {
       const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/inquiry`, {
         method: "POST",
@@ -73,8 +63,7 @@ export function CartClient() {
       });
       const contentType = response.headers.get("content-type") ?? "";
       if (!contentType.includes("application/json")) {
-        acceptDemoInquiry();
-        return;
+        throw new Error("Inquiry service unavailable");
       }
       const data = (await response.json()) as {
         ok?: boolean;
@@ -91,10 +80,13 @@ export function CartClient() {
       setDemoMode(Boolean(data.demo));
       setStatus("success");
       setServerMessage(data.message ?? "Заявка принята.");
-      setForm(emptyForm);
-      clear();
+      if (!data.demo) {
+        setForm(emptyForm);
+        clear();
+      }
     } catch {
-      acceptDemoInquiry();
+      setStatus("error");
+      setServerMessage("Не удалось отправить заявку. Ваш выбор сохранён — попробуйте ещё раз позже.");
     }
   }
 
@@ -105,11 +97,12 @@ export function CartClient() {
   return (
     <div className="container-site grid gap-8 py-8 lg:grid-cols-[1.1fr_0.9fr]">
       <section>
-        <h1 className="text-3xl font-semibold">Корзина</h1>
-        <p className="mt-2 text-sm text-graphite-muted">{site.demoCatalogNotice}</p>
+        <p className="eyebrow">ПОЧТИ ГОТОВО / RENTGAR</p>
+        <h1 className="text-4xl font-bold">Ваша заявка</h1>
+        <p className="mt-3 text-sm text-graphite-muted">Проверьте срок и количество. Наличие, залог и получение согласуем при подтверждении.</p>
         {priced.length === 0 ? (
           <p className="mt-6 rounded-xl border border-dashed border-line bg-white p-8 text-graphite-muted">
-            Корзина пуста. Выберите инструмент в каталоге, укажите срок и нажмите «В аренду».
+            Корзина пуста. Выберите инструмент в каталоге, укажите срок и нажмите «Оформить заявку».
           </p>
         ) : (
           <ul className="mt-6 space-y-4">
@@ -166,7 +159,7 @@ export function CartClient() {
                           id={`qty-${row.product.id}`}
                           type="number"
                           min={1}
-                          max={row.product.stock}
+                          max={row.product.stock ?? rentalRules.maxQuantity}
                           value={row.item.quantity}
                           onChange={(event) =>
                             updateItem(row.product.id, { quantity: Number(event.target.value) })
@@ -308,7 +301,7 @@ export function CartClient() {
               {errors.items}
             </p>
           ) : null}
-          <Button type="submit" className="w-full" disabled={status === "submitting"}>
+          <Button type="submit" className="w-full" disabled={status === "submitting" || priced.length === 0}>
             {status === "submitting" ? "Отправляем…" : "Отправить заявку"}
           </Button>
           {status === "success" ? (
@@ -325,8 +318,7 @@ export function CartClient() {
             </p>
           ) : null}
           <p className="text-xs text-graphite-muted">
-            Телефон для связи: {company.phone}. Если интеграция не настроена, заявка останется в
-            демонстрационном режиме.
+            Онлайн-оплата не требуется. Отправка заявки не означает бронирование оборудования.
           </p>
         </form>
       </aside>

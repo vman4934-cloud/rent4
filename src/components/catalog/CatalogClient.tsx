@@ -151,12 +151,13 @@ export function CatalogClient({ initialQuery }: { initialQuery?: CatalogQuery })
   }
 
   return (
-    <div className="container-site py-8">
+    <div className="container-site catalog-page">
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="text-3xl font-semibold">Каталог аренды</h1>
+          <p className="eyebrow">RENTGAR / ОБОРУДОВАНИЕ ДЛЯ ВАШЕЙ ЗАДАЧИ</p>
+          <h1 className="text-3xl font-semibold">{result.category?.name ?? "Каталог оборудования"}</h1>
           <p className="mt-1 text-graphite-muted">
-            {result.list.length} {result.list.length === 1 ? "позиция" : "позиций"} · цены и наличие демонстрационные
+            {result.list.length} {result.list.length === 1 ? "позиция" : "позиций"} · наличие подтверждает менеджер
           </p>
         </div>
         <div className="flex gap-2">

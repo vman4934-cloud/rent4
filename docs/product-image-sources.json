@@ -1,0 +1,411 @@
+{
+  "retrieved": "2026-09-19",
+  "note": "Фотографии моделей; комплектация и фактическое состояние арендуемого оборудования согласовываются отдельно.",
+  "images": [
+    {
+      "id": "rent-1",
+      "model": "FUBAG TI 3200",
+      "url": "https://www.moto-market.ru/generator/fubag-ti-3200.shtml",
+      "image": "https://www.moto-market.ru/sadm_images/generatory/Fubag/fubag_ti_3200_1.jpg",
+      "path": "/products/rent-1.jpg",
+      "bytes": 14137,
+      "sha256": "026dea50953c120f7ce9eec805e5986dee5c7644051893e388d94af01fe6fcd1"
+    },
+    {
+      "id": "rent-2",
+      "model": "TSS SGG 6000EHNA Duplex",
+      "url": "https://shop-tss.ru/elektrostancii/benzinovye-elektrostancii/benzogeneratory/benzogenerator-tss-sgg-6000ehna-duplex",
+      "image": "https://cdn.shop-tss.ru/image/cache/600-600/product/5193/benzogenerator_tss_sgg_6000ehna_duplex_0.jpg",
+      "path": "/products/rent-2.jpg",
+      "bytes": 66410,
+      "sha256": "661e9c2c412e99909dec6df63e3532ff6c5a42a04be1af5223196fd03b2cf5b4"
+    },
+    {
+      "id": "rent-3",
+      "model": "TSS SGG 8000EHNA",
+      "url": "https://shop-tss.ru/elektrostancii/benzinovye-elektrostancii/benzogeneratory/benzogenerator-tss-sgg-8000ehna",
+      "image": "https://cdn.shop-tss.ru/image/cache/600-600/product/4672/benzogenerator_tss_sgg_8000ehna_0.jpeg",
+      "path": "/products/rent-3.jpg",
+      "bytes": 72036,
+      "sha256": "900f7ed68b7b8756abd47463156a3f347c794b6a779807b5f8143bc7a189cd08"
+    },
+    {
+      "id": "rent-4",
+      "model": "TSS SGG 10000EHA",
+      "url": "https://tss-sklad.ru/catalog/product/benzinovyy_generator_tss_sgg_10000eha/",
+      "image": "https://tss-sklad.ru:443/upload/iblock/528/u9r1vrov02ieyg46799g4wit0ngbqlv6.jpg",
+      "path": "/products/rent-4.jpg",
+      "bytes": 9234,
+      "sha256": "9272ff15ae7d5c7c42705cb05c5b653124ea4491c100aee9d807f93900aa2839"
+    },
+    {
+      "id": "rent-10",
+      "model": "Makita HR2470",
+      "url": "https://makita.one/catalog/perf/HR2470/",
+      "image": "https://makita.one/upload/iblock/207/3-HR2470.jpg",
+      "path": "/products/rent-10.jpg",
+      "bytes": 153227,
+      "sha256": "be56c460358bcbdd57d6ef8c6c26752c0a366e0e7287237bb0d5245f5668270e"
+    },
+    {
+      "id": "rent-11",
+      "model": "Bosch Professional GBH 2-26 DRE",
+      "url": "https://www.bosch-professional.com/ro/ro/products/gbh-2-26-dre-0611253708",
+      "image": "https://www.bosch-professional.com/binary/ocsmedia/optimized/750x422/o5955v54_F4gd4018.png",
+      "path": "/products/rent-11.png",
+      "bytes": 230704,
+      "sha256": "45d033a621ac10ac2ca47b3e74f8d7362cfebfaeb0c45ad3d94cd7188eaa53b6"
+    },
+    {
+      "id": "rent-12",
+      "model": "Makita HR4013C",
+      "url": "https://www.makitauk.com/product/hr4013c.html",
+      "image": "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30118_PNG_web/HR4013C_C2L0.png",
+      "path": "/products/rent-12.png",
+      "bytes": 51915,
+      "sha256": "583d3841126f903f1070e749bea6229b70a516dc1a9c9ab6fe62fd3441843395"
+    },
+    {
+      "id": "rent-13",
+      "model": "Makita GA5030",
+      "url": "https://makita.com.sg/product/ga5030-angle-grinder/",
+      "image": "https://makita.com.sg/wp-content/uploads/2021/04/GA5030.jpg",
+      "path": "/products/rent-13.jpg",
+      "bytes": 88779,
+      "sha256": "9605130a48067ee38bc520cb7d7c731fdd10b5381204ecb173b32cb893158cd3"
+    },
+    {
+      "id": "rent-14",
+      "model": "Metabo WEV 15-125 Quick",
+      "url": "https://www.metabo.com/au/en/tools/cutting-sanding-milling/angle-grinder/angle-grinders-o100-150-mm/wev-15-125-quick-600468190-angle-grinder.html",
+      "image": "https://www.metabo.com/au/out/pictures/master/product/1/wev-15-125-quick-0046800s_51_b.jpg",
+      "path": "/products/rent-14.jpg",
+      "bytes": 130587,
+      "sha256": "b6d6dabf8e81135d863137eff435e47e162b1abe2e40e830ddb71d31c180255d"
+    },
+    {
+      "id": "rent-16",
+      "model": "Makita HP2071",
+      "url": "https://makitarussia.ru/product/hp2071/",
+      "image": "https://makitarussia.ru/wa-data/public/shop/products/85/14/1485/images/2283/2283.750x0.jpg",
+      "path": "/products/rent-16.jpg",
+      "bytes": 32561,
+      "sha256": "22223382ccef82b3be4b17f01ab19a3665fa31d8f1669742df0a81f7cfd9dee9"
+    },
+    {
+      "id": "rent-17",
+      "model": "Bosch Professional GSB 13 RE",
+      "url": "https://www.bosch-professional.com/nl/nl/products/gsb-13-re-0601217100",
+      "image": "https://www.bosch-professional.com/binary/ocsmedia/optimized/750x422/o377235v54_GSB_13_RE_sos_F4_0601217100_20_30_60_70_K1.png",
+      "path": "/products/rent-17.png",
+      "bytes": 207815,
+      "sha256": "79e1f34e3e311074367f1c8bf5113574bc52e60fec95d2a6ada9537632b11bf0"
+    },
+    {
+      "id": "rent-18",
+      "model": "Makita DDF482RFE LXT 18V",
+      "url": "https://www.makitauk.com/product/ddf482.html",
+      "image": "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30118_PNG_web/DDF482_C2L0.png",
+      "path": "/products/rent-18.png",
+      "bytes": 63868,
+      "sha256": "71339acd187bf06fc64a2b1eb6eb6393e02848b6e27188a64c8ea2dbcd84d8da"
+    },
+    {
+      "id": "rent-19",
+      "model": "Makita HM0870C",
+      "url": "https://www.makitapro.ru/Otbojnyj-molotok-Makita-HM0870C-i698.html",
+      "image": "https://www.makitapro.ru/u/catalog/698-96.jpg",
+      "path": "/products/rent-19.jpg",
+      "bytes": 20678,
+      "sha256": "d5f66cf9cc4e9383553f6068bb3afe7a1d2784ae33d00d7362383d5f2edaab96"
+    },
+    {
+      "id": "rent-20",
+      "model": "Bosch Professional GSH 11 E",
+      "url": "https://www.bosch-professional.com/gb/en/products/gsh-11-e-0611316742",
+      "image": "https://www.bosch-professional.com/binary/ocsmedia/optimized/750x422/o5004v54_F4gd3089.png",
+      "path": "/products/rent-20.png",
+      "bytes": 187337,
+      "sha256": "a20e7ad3c6a3717166496a850b35ce89b277ce841a01512d772f257472e3155d"
+    },
+    {
+      "id": "rent-21",
+      "model": "Makita HM1213C",
+      "url": "https://www.makitapro.ru/Otbojnyj-molotok-Makita-HM1213C-i717.html",
+      "image": "https://www.makitapro.ru/u/catalog/717-111.jpg",
+      "path": "/products/rent-21.jpg",
+      "bytes": 15266,
+      "sha256": "0787b2055a74ec6e4e2769004f8b1a00e5ac433356a709fc5c5a1126f283d5ab"
+    },
+    {
+      "id": "rent-22",
+      "model": "Bosch Professional GSH 16-30",
+      "url": "https://www.bosch-professional.com/ge/en/products/gsh-16-30-0611335100",
+      "image": "https://www.bosch-professional.com/binary/ocsmedia/optimized/750x422/o375916v54_GSH_16-30_sos_F4_0611335100_40_B0_P0.png",
+      "path": "/products/rent-22.png",
+      "bytes": 266163,
+      "sha256": "9a8d55b54e2122f0b283c7fccd684aff96c99b2d38b82652ef8a9ebb107b574d"
+    },
+    {
+      "id": "rent-23",
+      "model": "Makita SG1251J",
+      "url": "https://www.makita.co.nz/products/model/SG1251J",
+      "image": "https://images.makita.co.nz/_productshots/product/S/SG/SG1251-M.jpg",
+      "path": "/products/rent-23.jpg",
+      "bytes": 26623,
+      "sha256": "e324c65a402b32b6552ce7b72d7591a6cfa552cb756f6b8e748ab8b4cf614d52"
+    },
+    {
+      "id": "rent-24",
+      "model": "Metabo MFE 40",
+      "url": "https://www.metabo.com/us/enus/tools/cutting-sanding-milling/concrete-stone-plaster/wall-chasers/mfe-40-604040620-wall-chaser.html",
+      "image": "https://www.metabo.com/us/out/pictures/master/product/1/mfe-40-0404000s_53.jpg",
+      "path": "/products/rent-24.jpg",
+      "bytes": 110970,
+      "sha256": "557cfcb3db9d57bb8b56ebe69f8bfa28081726a1b5bab3327eba2218b18a4894"
+    },
+    {
+      "id": "rent-25",
+      "model": "Makita VC3012L",
+      "url": "https://otvertka.kz/product/makita-vc3012l",
+      "image": "https://img.otvertka.kz/product/product/makita/pilesos/VC3012L/7587large-vc3012l.webp",
+      "path": "/products/rent-25.webp",
+      "bytes": 17188,
+      "sha256": "de4c144bfb04225f5b6f2710622a9f5a811b5f0d9ece423c10fff3103e3ac881"
+    },
+    {
+      "id": "rent-26",
+      "model": "Kärcher NT 30/1 Tact L",
+      "url": "https://www.kaercher.com/int/professional/wet-and-dry-vacuum-cleaners/tact-class/nt-30-1-tact-l-11482010.html",
+      "image": "https://s1.kaercher-media.com/mam/11482010/mainproduct/75309/d0.jpg",
+      "path": "/products/rent-26.jpg",
+      "bytes": 263147,
+      "sha256": "f8b75422c6a5715b20e490e517fd4dc6ab3374a9afb559fb35f20e10c9623734"
+    },
+    {
+      "id": "rent-27",
+      "model": "TSS VP80TH",
+      "url": "https://ryvok.ru/rostov-na-donu/tehnika/vibropliti/vp80th/",
+      "image": "https://ryvok.ru/img/files/dorozh_raboty/vibroplity/tss-vp80th-kolesa-bak-big-1.jpg",
+      "path": "/products/rent-27.jpg",
+      "bytes": 240598,
+      "sha256": "91660e927527f642e00509d5413099ffb58b10b8bc93fdd131265f45859f7dcc"
+    },
+    {
+      "id": "rent-28",
+      "model": "TSS WP160L",
+      "url": "https://samara.tss.ru/catalog/stroitelnoe_oborudovanie_tss/vibroplita_reversivnaya_tss_wp160l_207185/",
+      "image": "https://samara.tss.ru/upload/iblock/2f0/f3o8cdszfwoyc51g0bgc5w6tik3tol6j.jpg",
+      "path": "/products/rent-28.jpg",
+      "bytes": 101892,
+      "sha256": "57606275f222d66c35fc1ff0e3573671cbd20422900425f2b0ed97a777f568a0"
+    },
+    {
+      "id": "rent-29",
+      "model": "TSS RM75H Honda GX160",
+      "url": "https://samara.tss.ru/catalog/stroitelnoe_oborudovanie_tss/vibrotrambovki_tss/benzinovye_vibrotrambovki/vibrotrambovka_benzinovaya_tss_rm75h__207500/",
+      "image": "https://samara.tss.ru/upload/iblock/9c4/dp7vh9zq8jv25npfwfe7a6m6yzee19qh.jpg",
+      "path": "/products/rent-29.jpg",
+      "bytes": 79406,
+      "sha256": "58618be3f81ace5d52c7ea283cd1c63a2383f0aca27a814f3145ecf2641b8b7a"
+    },
+    {
+      "id": "rent-30",
+      "model": "TSS RH-350L",
+      "url": "https://rostov.tss.ru/catalog/stroitelnaya_tekhnika/rezchiki_shvov_tss_1/rezchik_shvov_tss_rh_350l_107572/",
+      "image": "https://rostov.tss.ru/upload/iblock/745/hv0pp4lckjxuxksork0iuj7aitq26c7h.jpg",
+      "path": "/products/rent-30.jpg",
+      "bytes": 97317,
+      "sha256": "03d4b806eec9b63cd88489fc46452484be781ebd1f3b79ea8f6e7115ee2840ea"
+    },
+    {
+      "id": "rent-31",
+      "model": "TSS ЭП-1,5/220 + вал/булава",
+      "url": "https://ryvok.ru/tehnika/glubinnye-vibratory/tss-ep-1-5/",
+      "image": "https://ryvok.ru/img/files/rabota_s_rastvorom/vibratory/tss-privod-ep-uzo-big-1.jpg",
+      "path": "/products/rent-31.jpg",
+      "bytes": 55351,
+      "sha256": "38d4dd16767d261cfb96c08809fd4f453948371a2618d6a1f77e31c55090b81e"
+    },
+    {
+      "id": "rent-32",
+      "model": "Вихрь БМ-180",
+      "url": "https://vihr.ru/products/betomeshalka-vikhr-bm-180",
+      "image": "https://vihr.ru/pictures/product/big/4686_big.jpg",
+      "path": "/products/rent-32.jpg",
+      "bytes": 43793,
+      "sha256": "1dee7de96cb01cbbd615df40ceb9c740ae03b2cdadf5ad5f601cce03e3ed3ceb"
+    },
+    {
+      "id": "rent-33",
+      "model": "Eibenstock DBE 162",
+      "url": "https://www.eibenstock.com.ua/ua/eibenstock-dbe-162.html",
+      "image": "https://www.eibenstock.com.ua/img/product/3fa5c432bc68dcb83da6358eec353ffc7298d5e0.png",
+      "path": "/products/rent-33.png",
+      "bytes": 107967,
+      "sha256": "3337ed00161fe59027615e677c2ea93d08839598560aea219756e7870c8b3171"
+    },
+    {
+      "id": "rent-34",
+      "model": "Husqvarna K 970",
+      "url": "https://www.husqvarna.com/ca-en/power-cutters/k970/",
+      "image": "https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna-construction/petrol-power-cutters/photos/studio/hc210-0344.webp?v=ade3e8cee00e823d&format=WEBP_LANDSCAPE_CONTAIN_MD",
+      "path": "/products/rent-34.webp",
+      "bytes": 14376,
+      "sha256": "145b10d819dc0eb0d33e58916d6de007ac956f8a25b899be32cb05df86ca89f9"
+    },
+    {
+      "id": "rent-35",
+      "model": "STIHL TS 420",
+      "url": "https://www.stihl.ca/en/p/cut-off-machines-ts-420-1340",
+      "image": "https://www.stihl.ca/content/dam/stihl/media/pim/15965.jpg",
+      "path": "/products/rent-35.jpg",
+      "bytes": 358531,
+      "sha256": "a8f669c647b17795b01634326555d86e9a185dea391e8f39b81e76541cb20abc"
+    },
+    {
+      "id": "rent-37",
+      "model": "Master DH 752",
+      "url": "https://master-shop.ru/catalog/product/kondensatsionnyy-osushitel-vozdukha-na-46-7-l-sut-master-dh-752",
+      "image": "https://master-shop.ru/upload/iblock/5a0/u3e1u8vwoql74nipg2nkflbc6zjkw8uh/sop61mwtehl23m58mcg4t3mowsf6rw4b.jpg",
+      "path": "/products/rent-37.jpg",
+      "bytes": 195731,
+      "sha256": "ed7c95a63f913a6d34ed315fca892e24a507126cf894eed7bed0b69633964b7b"
+    },
+    {
+      "id": "rent-39",
+      "model": "Ballu BHP-ME-5",
+      "url": "https://ballurussia.ru/product/teplovaja-pushka-jelektricheskaja-ballu-bhp-me-5/",
+      "image": "https://ballurussia.ru/wp-content/uploads/2020/04/e658dd71be38e07c345b9a53f36ea118.png",
+      "path": "/products/rent-39.png",
+      "bytes": 438315,
+      "sha256": "4b0b521b48601495597e841329b35ded41d73fe19e77ca5ee2e39ab785e08e67"
+    },
+    {
+      "id": "rent-40",
+      "model": "Master B 100 CED",
+      "url": "https://master-shop.ru/catalog/product/dizelnaya-teplovaya-pushka-pryamogo-nagreva-na-29-kvt-master-b-100-ced",
+      "image": "https://master-shop.ru/upload/iblock/cec/gz2j3v5bd8aqbi6xo6c2peftbjunkfbh/1705266441_b100-2-2.png",
+      "path": "/products/rent-40.png",
+      "bytes": 336978,
+      "sha256": "5dfcd8eb9506a28d26c46db16d509e5cb804f9f74eb137cc6d7e7b3f0d0730a2"
+    },
+    {
+      "id": "rent-41",
+      "model": "Grundfos UNILIFT KP 250-A1",
+      "url": "https://www.waterpomp.be/grundfos-unilift-kp-250-a1-dompelpomp",
+      "image": "https://www.waterpompshop.nl/img/1200/630/resize/catalog/product/g/r/grundfosuniliftkpa1_1.jpg",
+      "path": "/products/rent-41.jpg",
+      "bytes": 22804,
+      "sha256": "4d60ba31e0d805faddc41d82cc5a14d5263866dcccf4104e5eb4d87ead18c046"
+    },
+    {
+      "id": "rent-42",
+      "model": "Koshin SEV-50X",
+      "url": "https://rabetrading.com/products/oriental-koshin-sev-50x-benzine-motorpomp",
+      "image": "https://rabetrading.com/cdn/shop/files/oriental-koshin-sev-50x-benzine-motorpomp-1.png?v=1787764384&width=1200",
+      "path": "/products/rent-42.png",
+      "bytes": 576013,
+      "sha256": "5b38e148b1188a51f9d040986eb26323d2a4d67c69e1d9b5c603625164be83f0"
+    },
+    {
+      "id": "rent-43",
+      "model": "Koshin KTH-80X",
+      "url": "https://koshinamerica.com/product/kth-80x/",
+      "image": "https://koshinamerica.com/wp-content/uploads/KTH-80X.jpg",
+      "path": "/products/rent-43.jpg",
+      "bytes": 10333,
+      "sha256": "e138db5d287dbdde23ee670ddade935063e8cae2e7611798c1f4d68246a56eb3"
+    },
+    {
+      "id": "rent-45",
+      "model": "Remeza СБ4/С100.LB30A",
+      "url": "https://w.remeza.org/catalog/kompressory/porshnevye_kompressory/porshnevye_maslozapolnennye_kompressory/sb4_s_100_lb30a/",
+      "image": "https://w.remeza.org/upload/iblock/685/robcodx3gv0k7l00va1zyqqu5r8vbsc1.webp",
+      "path": "/products/rent-45.webp",
+      "bytes": 87058,
+      "sha256": "3240733ad96c06c9c9a55aa05ce719b7859d05cb951ed181e619093028c2678d"
+    },
+    {
+      "id": "rent-46",
+      "model": "ABAC B6000/270 CT 7.5",
+      "url": "https://www.abac-air.com/catalog/remennye-dvukhstupenchatye/b6000_270_ct_7_5/",
+      "image": "https://www.abac-air.com/upload/iblock/7a8/7a859d5c0ce4b189f748efd9f6a6bcff.jpg",
+      "path": "/products/rent-46.jpg",
+      "bytes": 8582,
+      "sha256": "ee58fc919ef7dfa24779719ab309266426f81c222dc5c0167c820c1eee7f5612"
+    },
+    {
+      "id": "rent-52",
+      "model": "Bosch Professional GLL 3-80 CG",
+      "url": "https://www.bosch-professional.com/nl/nl/products/gll-3-80-cg-0601063T00920",
+      "image": "https://www.bosch-professional.com/binary/ocsmedia/optimized/750x422/o337106v54_GLL_3-80_CG-SKU-0601063T00.png",
+      "path": "/products/rent-52.png",
+      "bytes": 193090,
+      "sha256": "bb19718a039a459987ebb4fc10e9b7b5c12e340de925d3fe5d7758876c07047e"
+    },
+    {
+      "id": "rent-62",
+      "model": "Kärcher Puzzi 10/1",
+      "url": "https://www.kaercher.com/us/commercial/carpet-extractors/compact/puzzi-10-1-11001330.html",
+      "image": "https://s1.kaercher-media.com/mam/11001330/mainproduct/d306ec1a-1aef-462c-90e9-5a99c134aef9/d0.jpg",
+      "path": "/products/rent-62.jpg",
+      "bytes": 225502,
+      "sha256": "ed8d4b6549ee30239217804f43e7bd0b654a151a25658cabef87d727dc1b96f5"
+    },
+    {
+      "id": "rent-63",
+      "model": "Wandeli QX-1200",
+      "url": "https://fortezzo.com/wandeli_qx_1200/",
+      "image": "https://fortezzo.com/wa-data/public/shop/products/00/01/100/images/418/418.750x0.jpg",
+      "path": "/products/rent-63.jpg",
+      "bytes": 56855,
+      "sha256": "1d171e1ca03f7279d8304921ad5b73cb2158facaf32e413e2102e2e264dd8ef1"
+    },
+    {
+      "id": "rent-64",
+      "model": "Master DH 62",
+      "url": "https://master-shop.ru/catalog/product/kondensatsionnyy-osushitel-vozdukha-na-52-l-sut-master-dh-62",
+      "image": "https://master-shop.ru/upload/iblock/874/ebfbwc6pqtnk2uml1iyyi8rx3xh05jfx/s5mkjz83661bw4wy9i647tu7tpe5jwxg.jpg",
+      "path": "/products/rent-64.jpg",
+      "bytes": 85674,
+      "sha256": "0738626502d2a20464d4660be9e5c0dd9af04458224f2f150db5b5405ee4b9d5"
+    },
+    {
+      "id": "rent-65",
+      "model": "STIHL BT 360",
+      "url": "https://stihtools.ru/goods/stihl_43082060301-/",
+      "image": "https://stihtools.ru/uploads/exchange/goods_files/H8HLBkv0U6E_RA0rRRBMbJbhcZcouvJa.jpg",
+      "path": "/products/rent-65.jpg",
+      "bytes": 13490,
+      "sha256": "4b2a05ff86dc58f37964c0298df75c9d7bfaceda9a6f0f97806399bae6d5d8ee"
+    },
+    {
+      "id": "rent-67",
+      "model": "TSS DMD900, 380 В",
+      "url": "https://shop-tss.ru/stroitelnoe-oborudovanie/zaglazhivayuschie-mashiny/elektricheskie-1/mashina-zaglazhivayuschaya-elektricheskaya-universalnaya-tss-dmd900-lopasti-disk-s-uzo-380v",
+      "image": "https://cdn.shop-tss.ru/image/cache/600-600/catalog/product/20337/stankomag___1608992853___mashina-zaglazhivayuschaya-elektricheskaya-universalnaya-tss-dmd900-lopasti-disk-s-uzo-380v.jpeg",
+      "path": "/products/rent-67.jpg",
+      "bytes": 45146,
+      "sha256": "4a738359a7c52c30adb27ab01a761ac7526e4f315b494fb6c31afeffb8bc1986"
+    },
+    {
+      "id": "rent-48",
+      "model": "Сварог REAL ARC 200 Z238N",
+      "url": "https://svarog-rf.ru/products/real-arc-200-z238n",
+      "image": "https://svarog-rf.ru/files/product_images/real_arc_200_b.png",
+      "path": "/products/rent-48.png",
+      "bytes": 566217,
+      "sha256": "d47536b2d711daca70f9eaf0b6f8ef1cec55d9fc9156ff3154081c576c626cdf"
+    },
+    {
+      "id": "rent-49",
+      "model": "AuroraPRO SPEEDWAY 200",
+      "url": "https://geon.ru/product/aurorapro-speedway-200-invertornyj-svarochnyj-poluavtomat-10039/",
+      "image": "https://geon.ru/upload/iblock/6f9/n9dx4qzzr7i8ndhjlbe90v7vxn3r4he5.webp",
+      "path": "/products/rent-49.webp",
+      "bytes": 35954,
+      "sha256": "0034865d5f6a5ffd4b6bb25b80204f2a238ceb9bd9f402a79967ad8bd7974dcc"
+    }
+  ]
+}

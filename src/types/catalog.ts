@@ -1,11 +1,24 @@
 export type CategoryId =
-  | "elektroinstrument"
-  | "stroitelnoe-oborudovanie"
-  | "silovaya-tehnika"
-  | "sadovaya-tehnika"
-  | "prinadlezhnosti";
+  "generatory"
+  | "perforatory"
+  | "shlifmashiny"
+  | "dreli-i-shurupoverty"
+  | "otboynye-molotki"
+  | "shtroborezy-i-pylesosy"
+  | "uplotnenie-i-beton"
+  | "almaznoe-burenie-i-rezka"
+  | "klimat-i-sushka"
+  | "nasosy-i-motopompy"
+  | "kompressory"
+  | "svarka"
+  | "izmerenie"
+  | "moyushchie-pylesosy"
+  | "plitkorezy"
+  | "motobury"
+  | "zatirochnye-mashiny";
 
 export type ProductVisual =
+  | "equipment"
   | "hammer-drill"
   | "grinder"
   | "driver"
@@ -52,8 +65,8 @@ export type Product = {
   specs: ProductSpec[];
   kit: string[];
   dailyRate: number;
-  deposit: number;
-  stock: number;
+  deposit: number | null;
+  stock: number | null;
   popular: boolean;
   visual: ProductVisual;
   /** Путь к файлу в /public. Если пусто — показывается заглушка. */

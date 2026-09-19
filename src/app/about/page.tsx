@@ -1,32 +1,9 @@
 import type { Metadata } from "next";
-import { company } from "@/data/company";
+import { products } from "@/data/products";
+import { categories } from "@/data/categories";
 import { ButtonLink } from "@/components/ui";
-
-export const metadata: Metadata = {
-  title: "О компании",
-  description: `Аренда строительного инструмента в ${company.city}. Каталог, предварительный расчёт и заявка.`,
-};
-
+import { Icon } from "@/components/Icon";
+export const metadata: Metadata = { title: "О RentGar", description: "RentGar — инструмент для дела. Каталог аренды оборудования для ремонта, стройки и уборки в Москве." };
 export default function AboutPage() {
-  return (
-    <article className="container-site max-w-3xl space-y-6 py-10">
-      <h1 className="text-3xl font-semibold">О компании</h1>
-      <p>
-        {company.name} — сервис аренды строительного инструмента и оборудования в {company.city}.
-        Сайт помогает выбрать позицию, посчитать предварительную стоимость и оставить заявку.
-      </p>
-      <p className="text-graphite-muted">
-        История компании, год основания, парк техники и условия для юридических лиц — данные для
-        заполнения владельцем. Отзывы и рейтинги на сайте не публикуются.
-      </p>
-      <ul className="list-disc space-y-2 pl-5 text-graphite-muted">
-        <li>Юридическое название: {company.legalName}</li>
-        <li>ИНН: {company.inn}</li>
-        <li>Зона обслуживания: {company.serviceArea}</li>
-      </ul>
-      <ButtonLink href="/catalog" variant="graphite">
-        Выбрать инструмент
-      </ButtonLink>
-    </article>
-  );
+  return <article className="container-site content-page"><p className="eyebrow">О RENTGAR</p><h1>Инструмент нужен.<br />Покупать необязательно.</h1><p className="text-lg text-graphite-muted">Ремонт квартиры, работа на стройке или уборка после отделки — у каждой задачи свой инструмент. RentGar помогает выбрать оборудование и рассчитать аренду на нужный срок.</p><section className="space-y-4"><h2>{products.length} моделей. {categories.length} категорий.</h2><p>В каталоге — перфораторы, генераторы, оборудование для бетона, осушители, моющие пылесосы и другая профессиональная техника. Модели, характеристики и предварительная стоимость собраны в одном месте.</p></section><section className="space-y-4"><h2>Понятно до начала работ</h2><p>Вы выбираете дату, срок и количество. Сайт рассчитывает аренду, а менеджер подтверждает наличие, залог и комплектацию. Доставку или самовывоз можно указать в заявке.</p></section><div className="mt-7"><ButtonLink href="/catalog" size="lg">Найти свой инструмент <Icon name="arrow" /></ButtonLink></div></article>;
 }

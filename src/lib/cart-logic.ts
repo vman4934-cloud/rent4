@@ -9,17 +9,17 @@ export type PricedCartItem = {
   item: CartItem;
   product: Product;
   rental: number;
-  deposit: number;
+  deposit: number | null;
 };
 
 export type CartTotals = {
   rental: number;
-  deposit: number;
+  deposit: number | null;
   deliveryLabel: string;
   deliveryAmount: number | null;
 };
 
-export function normalizeCartItem(raw: Partial<CartItem>, stock?: number): CartItem | null {
+export function normalizeCartItem(raw: Partial<CartItem>, stock?: number | null): CartItem | null {
   if (!raw.productId || typeof raw.productId !== "string") return null;
   const days = clampDays(Number(raw.days));
   const quantity = clampQuantity(Number(raw.quantity), stock ?? rentalRules.maxQuantity);
@@ -39,7 +39,7 @@ export function priceItem(product: Product, item: CartItem) {
     days,
     quantity,
     rental: product.dailyRate * days * quantity,
-    deposit: product.deposit * quantity,
+    deposit: product.deposit === null ? null : product.deposit * quantity,
   };
 }
 
@@ -70,7 +70,9 @@ export function resolveCart(items: CartItem[]) {
 
   const totals: CartTotals = {
     rental: priced.reduce((sum, row) => sum + row.rental, 0),
-    deposit: priced.reduce((sum, row) => sum + row.deposit, 0),
+    deposit: priced.some((row) => row.deposit === null)
+      ? null
+      : priced.reduce((sum, row) => sum + (row.deposit ?? 0), 0),
     deliveryLabel: deliveryTariff.note,
     deliveryAmount: deliveryTariff.enabled ? deliveryTariff.amount : null,
   };

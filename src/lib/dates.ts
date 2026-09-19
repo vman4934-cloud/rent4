@@ -26,8 +26,8 @@ export function clampDays(value: number) {
   return Math.min(rentalRules.maxDays, Math.max(rentalRules.minDays, Math.floor(value)));
 }
 
-export function clampQuantity(value: number, stock = rentalRules.maxQuantity) {
-  const max = Math.max(1, Math.min(rentalRules.maxQuantity, Math.floor(stock) || 1));
+export function clampQuantity(value: number, stock: number | null = rentalRules.maxQuantity) {
+  const max = Math.max(1, Math.min(rentalRules.maxQuantity, Math.floor(stock ?? rentalRules.maxQuantity) || 1));
   if (!Number.isFinite(value)) return 1;
   return Math.min(max, Math.max(1, Math.floor(value)));
 }

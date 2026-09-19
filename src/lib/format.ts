@@ -4,8 +4,8 @@ const rubFormatter = new Intl.NumberFormat("ru-RU", {
   maximumFractionDigits: 0,
 });
 
-export function formatRub(amount: number) {
-  return rubFormatter.format(amount);
+export function formatRub(amount: number | null) {
+  return amount === null ? "Уточняется" : rubFormatter.format(amount);
 }
 
 export function formatPhoneHref(phone: string) {

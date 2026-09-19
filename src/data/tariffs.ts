@@ -7,8 +7,6 @@ export const rentalRules = {
   maxDays: 365,
   maxQuantity: 20,
   currency: "RUB" as const,
-  pricesAreDemo: true,
-  stockIsDemo: true,
 };
 
 export const deliveryTariff = {
@@ -18,7 +16,7 @@ export const deliveryTariff = {
   amount: null as number | null,
   note: "Рассчитывается менеджером",
   pickupNote:
-    "Самовывоз — с пункта выдачи в часы работы. Адрес и график указаны в шапке сайта и на странице «Контакты».",
+    "Самовывоз согласовывается при подтверждении заявки. До получения менеджер сообщит адрес и доступное время выдачи.",
   deliveryNote:
     "Доставка возможна по зоне обслуживания. Стоимость, интервал и возможность доставки согласовываются с менеджером: тарифы на сайте пока не заданы.",
 };
